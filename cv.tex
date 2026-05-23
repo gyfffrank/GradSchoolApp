@@ -1,0 +1,373 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper, 12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Yufeng (Frank) Gu} \\[7.5pt]
+Colgate University \ $|$ \ 
+13 Oak Drive \ $|$ \ 
+\raisebox{-0.05\height}\faEnvelope \ ygu1@colgate.edu \ $|$ \ 
+\raisebox{-0.05\height}\faMobile \ +1 315-(601)-3896 \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+%\section{Summary}
+%I am an undergraduate student researcher at Colgate University, pursuing a Bachelor of Arts degree in Physics and History, expected to graduate in 2027. I have a strong interest and aptitude in both natural and social sciences, and I enjoy applying my analytical and problem-solving skills to various research projects. I am also an Alumni Memorial Scholar, a prestigious award that grants me 10k for funding undergraduate research and internship opportunities.
+%
+%Currently, I am working with prof. Ilie, and using archival data from the James Webb Space Telescope (JWST) and Python to look for potential supermassive dark stars (SMDS) candidates. This project aims to test the theories of dark matter (DM) and its properties, and to contribute to the advancement of astrophysics and cosmology. Previously, I was a research assistant at the Chinese Academy of Sciences, where I helped with data collection, analysis, and report writing in the thermal engineering department. Through these experiences, I have developed skills in physics, LaTeX, mathematical modeling, data analysis, and Python. I am eager to learn from and collaborate with experts and peers in the field, and to bring diverse perspectives and experiences to the team.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Colgate University, Hamilton, NY} \ $|$ \ Bachelor of Arts & (GPA: 3.94/4.00) \hfill \normalsize May 2027\\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Majors: Physics and History-Historiography Pathway
+        \item[--] Alumni Memorial Scholar, a selective student community of 15 members in each class year, recognizing dedication to scholarship and academic excellence. Selectees are granted 10,000 USD for independent research and skill development.
+        \item[--] Dean's Award with Distinction (All semesters)
+        \item[--] Relevant Coursework: Atom and Waves, Intro to Mechanics, Intro to Electricity and Magnetism, Electronics, Introduction to Quantum Mechanics, Mathematical Methods of Physics, Classical Mechanics, Planetary Science, Calculus I-III.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Stanford Online High School}: Modern Physics (XP 670) & (Grade: 80/100) \hfill Aug-Dec 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Completed semester-long coursework in special and general relativity, experimental quantum mechanics, quantum computation, and quantum information
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%Experience
+\section{Research Experiences}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+
+\textbf{Student Researcher $|$ Department of Physics $|$ Colgate University} & \hfill Apr 2025 - Present\\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Laboratory Astrophysics of Gravitational Lensing - Working with Professor Galvez, designed and carried out an optical simulation of gravitational lensing using laser beams modulated by a spatial light modulator (SLM) to emulate spacetime curvature. Implemented phase profiles corresponding to single and binary Schwarzschild lenses and experimentally reproduced interference and fringe patterns analogous to Einstein rings. Quantitatively compared theoretical predictions with measured intensity profiles, demonstrating agreement in fringe structure and evolution relevant to binary systems and black hole mergers. Relative work was presented during the OPICA/FIO conference in Denver, CO, and is currently being prepared for publication.
+        \item[--] Optical Analog of Quantum Pendulum Dynamics - Working with Professor Galvez, designed and experimentally realized a structured optical beam exploiting the equivalence between the Helmholtz and Schrödinger equations. Generated a Fourier-plane image encoding a superposition of 11 pendular eigenstates, with ring radii proportional to energy and angular modulation proportional to quantum probability density, including bound and rotor states. This work has been submitted to Physics Today (Backscatter) for review.
+    \end{itemize}
+\end{minipage}
+} 
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+
+\textbf{Student Researcher $|$ Department of Physics $|$ Colgate University} & \hfill Sep 2024 - Jan 2025\\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Collaborate with Professor Lam, utilizing post-fit data of NanoGrav program, analyzing red noise effects in pulsar timing by Python Libraries including SciPy, AstroPy, Pandas, and Matplotlib to attempt to improve gravitational wave detection.
+        \item[--] Utilize currently available data sets to analyze unidentified radio-frequency-dependent effects of interstellar materials with Python by irregular auto-regression model and corresponding power spectral density graph.
+    \end{itemize}
+\end{minipage}
+} 
+\end{tabularx}
+
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
+%\textbf{Student Researcher $|$ Department of Physics $|$ Colgate University} & \hfill Mar 2024 - Aug 2024 \\[3.75pt]
+%\multicolumn{2}{@{}X@{}}{
+%\begin{minipage}[t]{\linewidth}
+%    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+%        \item[--] Analyzed archival data from JWST and used machine learning in collaboration with Prof. Ilie to identify potential supermassive dark star candidates and investigate properties of Dark Matter.
+%    \end{itemize}
+%\end{minipage}
+%}  \\
+%\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Research Assistant $|$ Chinese Academy of Sciences $|$ Beijing, China} & \hfill Apr 2021 - Jul 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Performed data collection, analysis with Matlab, simulation with FLUENT, and experiment report writing to assist researchers and Ph.D. students in the thermal engineering lab after completing a 2-month training workshop.
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+
+
+%Projects
+\section{Campus Community Involvement}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Residential Assistance $|$ ResLife Office $|$ Colgate University} & \hfill Aug 2025 - Present\\[3.75pt] 
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Facilitated community meetings, supported residents’ academic and personal well-being through resource referrals, mediated conflicts, and upheld community standards. 
+        \item[--] Collaborated with Residential Life staff on orientation, hall operations, and safety protocols while serving as a liaison between residents and university offices
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Co-founder \& VP $|$ Engineering and Design Club $|$ Colgate University} & \hfill Sep 2024 - Present\\[3.75pt] 
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Collaborate with peers and faculty of the physics department, founding a club that allows members to propose their own engineering projects and provides access for these interested students to funds and gear that facilitate their creativity. 
+        \item[--] Assume the leadership role of vice president in the club, assisting the President in leading the club by contributing to project proposal reviews, strategic initiatives, discussions, collaborations, and outreach with student organizations and staff. Also, oversee key administrative functions including elections, leadership transitions, and appeals committees.
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Secretary $|$ Ski and Snowboard Club $|$ Colgate University} & \hfill Jan 2025 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Collaborate with other club leaders and trip leaders to ensure the safety of the club outreach activities to Greek, Song, and Labrador Mountains, coordinate with school's accounting office for funding on outreach meals, and get ready to answer any kind of questions.
+        \item[--] Manage the club email and trip 
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Tutor for PHSY 343 $|$ Department of Physics $|$ Colgate University} & \hfill Jan 2026 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Assist Professor Enrique Galvez in setting up the electronics lab, clarifying lab instructions, helping and inspiring students to design digital and analog circuits to solve certain problems.
+    \end{itemize} 
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Tutor for PHSY 205 $|$ Department of Physics $|$ Colgate University} & \hfill Jan 2026 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Assist professor Patrick Crotty by organizing homework help sessions for PHSY 205, clarifying concepts on differential equations, complex algebra, Fourier transformation, and other mathematical tools for physicists, answering questions on the homework problems, and helping peers to prepare for the exams.
+    \end{itemize} 
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Tutor for PHSY 125 $|$ Department of Physics $|$ Colgate University} & \hfill Jan 2025 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Assist the department in designing this new course, and help students with broad topics from nanophysics, biophysics, to planetary sciences.
+    \end{itemize} 
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Tutor for PHSY 232 $|$ Department of Physics $|$ Colgate University} & \hfill Jan 2025 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Assist professor Michael Lam to organize recitation sessions for PHSY 232 Intro to Mechanics two hours per week, clarifying concepts on mechanics and astronomy, answering questions on the recitation problems, and sharing my experience of study and research with peers.
+        \item[--] Assist lab manager Hans Benze to organize Lab sessions for three hours per week, clarifying lab instructions and helping students with theoretical, instrumental, and coding problems they have.
+    \end{itemize} 
+\end{minipage}
+}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Tutor for PHSY 131 $|$ Department of Physics $|$ Colgate University} & \hfill Aug 2024 - Dec 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Organize tutoring sessions for two to five hours per week for PHSY 131 Atoms and Waves, clarifying key concepts and helping students with coursework and homework about extensive topics from classical mechanics to modern relativity and quantum physics.
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Bassist $|$ Colgate Jazz Band $|$ Colgate University} & \hfill Sep 2023 - May 2024\\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Studied jazz theory and performed improvisational classical jazz music to showcase skills and provide entertainment for peers at Donovan's Pub.
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
+%\textbf{Student Worker $|$ Chobani Cafe 
+% $|$ Colgate University} & \hfill Jan 2024 - May 2024\\[3.75pt]
+%\multicolumn{2}{@{}X@{}}{Developed proficiency in preparing a variety of sandwiches, yogurt, salads, coffee, and drinks to ensure accurate order based on preferences and dietary constraints.}  \\
+%\end{tabularx}
+
+\section{Program}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Modeler, Research Organizer $|$ China Thinks Big $|$ Chengdu No.7 High School} & \hfill Oct 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Conducted a linguistic philosophical-based double-blind experiment to test the correlation between popular short video screening and intellectual abilities in collaboration with peers of different interests. 
+        \item[--] Created an Analytic Hierarchy Process with Matlab based on Ludwig Wittgenstein's linguistic philosophy and proved the negative correlation between reading speed and short video screening time. 
+        \item[--] Wrote a script in the style of Faulkner's stream of consciousness for a hand-made anime to warn the potential danger of short video screening which was viewed 5,000 times online.
+    \end{itemize}
+\end{minipage}
+}  \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+Proficient: MATLAB, Java, Python (SciPy, AstroPy, NumPy, Pandas, and Matplotlib), LaTeX, Mathematical Modeling (Finalist in the High School Mathematical Contest in Modeling (HiMCM) hosted by MAA and COMAP); \\
+Basic: C++, Machine Learning, Fluent. 
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%\section{Publications}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
+
+
+
+%\section{Programs}
+
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
+%\textbf{Academic Research Skills} & \hfill \\
+%\multicolumn{2}{@{}X@{}}{Skilled in data collection, analysis, fitting, time series prediction (MATLAB), error analysis, technical report writing, and APA bibliography generation.}  \\
+%\end{tabularx}
+
+
+\end{document}
