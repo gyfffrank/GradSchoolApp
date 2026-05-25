@@ -48,6 +48,14 @@
 - **Alumni placements:** Not verified
 - **Frank's specific hook:** Renninger's traveling-wave optomechanical platform for quantum information processing connects to Frank's optical networking career goal — phonon-mediated quantum information routing is a quantum networking primitive; Frank's experimental instrumentation skills are directly applicable
 
+### Svetlana Lukishova — Research Professor of Optics
+- **Group:** Quantum Nanophotonics and Liquid Crystal Optics (longest-running quantum optics teaching lab at Rochester — 15+ years)
+- **Group size:** Small, ~2–4 students
+- **Research focus:** Quantum nanophotonics, liquid crystals as reconfigurable optical elements, nonlinear optics, single-photon sources using liquid-crystal-hosted emitters, quantum cryptography experiments
+- **Relevant publication:** Co-organized and published 15-year retrospective of Rochester's Quantum Optics, Quantum Information, and Nano-Optics Educational Facility (Optical Engineering, 2022)
+- **Alumni placements:** Not verified
+- **Frank's specific hook:** Lukishova's work on liquid-crystal-based structured-light control and single-photon source engineering overlaps with Frank's SLM phase-encoding expertise; her nonlinear optics background connects to the quantum pendulum dynamics project (Helmholtz–Schrödinger equivalence is also central to nonlinear optics problems)
+
 ---
 
 ## Funding details

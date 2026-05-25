@@ -1,5 +1,5 @@
 # Target programs
-<!-- last updated: 2026-05-26 by program-evaluation (rochester-optics, cornell-aep, columbia-physics) -->
+<!-- last updated: 2026-05-26 by program-evaluation (rochester-optics, cornell-aep, columbia-physics — all updated to 3+ PIs) -->
 
 ## Summary
 - **Total applications:** 28 (PhD: 18, MS: 10)
@@ -21,7 +21,7 @@
 | 8 | Physics / JILA | U Colorado Boulder | match | Shuo Sun | Sun's nanophotonic quantum optics is a direct subfield match; JILA is top-3 AMO institute globally | _tbd_ | _pending_ | _not yet evaluated_ |
 | 9 | Physics / JQI | U Maryland | match | Mohammad Hafezi | Hafezi's topological photonics + Gorshkov's quantum networking theory hit both research interest and career goal | _tbd_ | _pending_ | _not yet evaluated_ |
 | 10 | Applied & Engineering Physics | Cornell | match | Karan Mehta | Mehta's 2025 structured light paper (PRL Applied) is a direct SLM technique overlap; $59k stipend; Ithaca NY Northeast | Dec 15 | 7.8 | [scorecard](programs/cornell-aep/scorecard.md) |
-| 11 | Physics / APAM-EE | Columbia | match | Ana Asenjo-Garcia / Michal Lipson | Asenjo-Garcia (quantum networks theory) + Lipson (quantum photonics, 2024 multiphoton work); NYC Northeast; note: two separate applications for each PI | Dec 4 | 6.5 | [scorecard](programs/columbia-physics/scorecard.md) |
+| 11 | APAM (Applied Physics) | Columbia | match | Alexander Gaeta / Michal Lipson | Gaeta (quantum light generation for comms, direct hit) + Lipson (silicon quantum photonics) + Asenjo-Garcia (quantum networks theory); NYC Northeast; apply via APAM | Dec 4 | 7.1 | [scorecard](programs/columbia-physics/scorecard.md) |
 | 12 | Physics | Boston University | match | Alexander Sergienko | Sergienko's entangled-photon quantum optics matches subfield; BU Photonics Center strong environment; Boston Northeast | _tbd_ | _pending_ | _not yet evaluated_ |
 | 13 | Physics | Stony Brook U (SUNY) | safety | Thomas Weinacht | Weinacht's quantum control is adjacent to optical physics; Long Island NY; top-25 physics program | _tbd_ | _pending_ | _not yet evaluated_ |
 | 14 | Physics | RPI | safety | _tbd_ | Upstate NY (same region as Colgate); Frank's profile clearly exceeds typical admits | _tbd_ | _pending_ | _not yet evaluated_ |

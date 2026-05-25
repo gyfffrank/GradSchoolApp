@@ -33,8 +33,24 @@
 - **Research:** Quantum photonics, nanophotonics, ultrafast dynamics in nanoscale structures; photon statistics and quantum optics of semiconductor light emitters
 - **Frank's specific hook:** Rana's quantum photonics work connects to Frank's interest in optical networking and quantum photonic devices; strong second option if Mehta's group is full
 
+### Gregory Fuchs — Professor, AEP
+- **Group:** Fuchs Group — Spin Dynamics at the Nanoscale
+- **Group size:** ~5–7 students
+- **Recent papers:**
+  - *Sound drives quantum jumps between electron orbits* (PRX Quantum, August 2024) — acoustic driving of NV center spin transitions; advances quantum network decoherence control
+  - *X-ray of vibrating diamond yields new equation for quantum sensors* (Cornell Chronicle, August 2024) — new equation for NV-center-based quantum sensors under mechanical strain
+  - Hybrid quantum system: superconducting microwave circuits + ultra-low-damping magnetic materials for waveguide design for microwave photons and magnons
+- **Alumni placements:** Not verified
+- **Frank's specific hook:** Fuchs's 2024 work explicitly frames NV center acoustic-optical coupling as a tool to combat spectral diffusion in quantum networking applications — the quantum networking framing maps directly to Frank's career goal; the spin-photon interface work is solid-state quantum optics (same intellectual space as Vamivakas at Rochester); Frank's structured light background is relevant to optical addressing of NV centers
+
+### Nick Rivera — Assistant Professor, AEP (joined July 2025)
+- **Group:** Rivera Lab (optical physics, condensed matter, nanotechnology, quantum information — new lab)
+- **Group size:** Just starting; 0–2 students; likely actively recruiting
+- **Research focus:** Optical physics at the intersection of condensed matter, nanotechnology, and quantum information science — precise research directions still being established
+- **Frank's specific hook:** Rivera is brand new (July 2025) and his broad optical physics + quantum info scope potentially encompasses structured light and quantum photonics; worth monitoring as his group's research direction crystallizes; cold email to express interest and learn his focus is low-risk / high-reward given his recruiting needs
+
 ### Note on program entry route
-- Mehta holds a primary appointment in **ECE** (College of Engineering), not AEP. Frank should apply to both Cornell AEP and Cornell ECE (or confirm that AEP students can be co-advised by ECE faculty) to keep Mehta accessible as an advisor. Verify with Mehta directly via cold email.
+- Mehta and Rana hold primary appointments in **ECE**; Fuchs and Rivera are in **AEP**. Frank can access all four via the AEP PhD, as AEP students routinely work with ECE faculty. Confirm with Mehta directly that AEP students are welcome in his group.
 
 ---
 

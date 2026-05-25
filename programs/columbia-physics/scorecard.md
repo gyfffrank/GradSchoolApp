@@ -4,14 +4,14 @@
 
 | Criterion | Weight | Score | Justification |
 |---|---|---|---|
-| PI fit | 40% | 6/10 | Ana Asenjo-Garcia (theoretical quantum optics, quantum networks) is subfield-aligned but theoretical — Frank is experimental; Michal Lipson (silicon photonics pioneer, 2024 multiphoton interference work) is closer to experimental quantum photonics but primarily integrated photonics engineering; adjacent fit rather than direct fit |
+| PI fit | 40% | 7.5/10 | Alexander Gaeta (quantum and nonlinear photonics, quantum light generation for communications) is a direct experimental match; Michal Lipson (silicon photonics, 2024 multiphoton interference) is strong second; Ana Asenjo-Garcia (theoretical quantum networks) rounds out the quantum networking angle — three viable PIs spanning experimental and theory |
 | Program quality in optics-photonics | 15% | 7/10 | Columbia is a top research university with an active quantum initiative; Lipson is a NAS/NAE member and a foundational figure in photonics; not optics-specific like Rochester but strong quantum photonics presence |
 | Funding security for international students | 15% | 6/10 | $42,970–$43,698 minimum stipend + full tuition for 6 years; ISSO fee covered; funding is secure but NYC COL is very high — stipend-to-COL ratio is the weakest of the match tier; financially tight without supplemental fellowship |
 | Location and cost-of-living | 10% | 7/10 | NYC (Morningside Heights) is exactly Frank's Northeast preference and proximate to quantum networking industry; COL is significantly higher than other programs on the list — stipend covers basics but leaves little margin |
 | Placement record | 10% | 7/10 | Columbia generally strong for academic and industry placement in NYC; Lipson group alumni go to top academic postdocs and industry (Intel, IBM, startups); Asenjo-Garcia group alumni into theory postdocs; specific recent data not verified |
 | Application feasibility | 10% | 7/10 | Columbia Physics is competitive but accessible for Frank's profile; deadline Dec 4; Asenjo-Garcia and Lipson are both established faculty who may not be actively recruiting — verify openings before investing heavy tailoring effort |
 
-**Weighted total: 6.5 / 10**
+**Weighted total: 7.1 / 10**
 
 ---
 
@@ -36,10 +36,21 @@
 - **Alumni placements:** Very strong — alumni at Intel, IBM, startups, top academic postdocs; NAS/NAE member; Lipson's group is one of the most productive in photonics
 - **Frank's specific hook:** Lipson's 2024 multiphoton interference work using nonlinear photonics for quantum information processing connects to Frank's optical networking career goal; Frank's experimental instrumentation skills and SLM/optics background are relevant. Note: Lipson is in APAM/EE, not Physics — Frank should apply to Columbia Engineering or APAM to be in her department.
 
+### Alexander Gaeta — David M. Rickey Professor of Applied Physics and Materials Science; Professor of Electrical Engineering
+- **Group:** Quantum and Nonlinear Photonics Group (gaeta.apam.columbia.edu)
+- **Group size:** ~8–12 students; large, high-output group
+- **Recent papers:**
+  - *Three-way multiphoton interference and arbitrary unitary transformations via four-wave mixing* (2024) — scalable quantum photonic information processing in the frequency domain using silicon nanophotonic rings; directly enables quantum communication architectures
+  - Optical frequency comb generation in silicon microresonators (collaboration with Lipson group) — applications in optical communications and quantum networking
+  - *Beyond photon pairs: Nonlinear quantum photonics in the high-gain regime* (arXiv 2021, highly cited) — quantum light generation beyond the pair regime for quantum information
+- **Alumni placements:** Strong — alumni at top academic institutions and quantum photonics industry (Intel, IBM, startups); Gaeta is NAS member; group produces top-tier postdocs and industry researchers
+- **Frank's specific hook:** Gaeta's quantum light generation via four-wave mixing in silicon nanophotonic waveguides maps directly to Frank's optical networking career goal — this is literally the physics of quantum optical communication. Frank's structured light background and SLM phase-profile design skills are transferable to waveguide-based coherent control. The Gaeta–Lipson collaboration (silicon rings for frequency combs and quantum light) means Frank would operate in a joint ecosystem across both groups.
+
 ### Note on department routing
-- **Asenjo-Garcia** is in the Physics department — apply to Columbia Physics PhD
-- **Lipson** is primarily in APAM/EE — apply to Columbia Engineering (APAM) or Columbia EE PhD
-- These are **separate applications**. If both PIs are of interest, Frank may need two Columbia applications. Confirm with each PI which program they prefer before applying.
+- **Gaeta and Lipson** are both in **APAM** (Applied Physics and Applied Mathematics) — a single Columbia APAM PhD application covers both
+- **Gaeta** also holds a joint appointment in the Physics department — accessible via Columbia Physics PhD as well
+- **Asenjo-Garcia** is in the Physics department only
+- **Recommended route:** Apply to **Columbia APAM PhD** — covers Gaeta (primary experimental target) and Lipson, and is the natural home for quantum photonics work. No need for two Columbia applications unless Asenjo-Garcia (theory) is a specific priority.
 
 ---
 
