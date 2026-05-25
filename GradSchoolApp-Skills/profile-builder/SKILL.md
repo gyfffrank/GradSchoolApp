@@ -4,7 +4,7 @@
 
 Trigger when the user wants to create or update a `profile.md` for their grad school application project. Phrases: "build my profile", "create profile.md", "set up my profile", "update my profile". Also trigger automatically when another skill (program-discovery, program-evaluation, sop-coach, etc.) tries to read `profile.md` and finds it missing or critically incomplete.
 
-`profile.md` is the foundational document the rest of the grad-school-app skill set depends on. It is a **living document** — built once here, then continuously updated by sop-coach (narrative section), program-discovery (target programs section), and program-evaluation (target programs summary rows). Build it well at the start; the downstream skills will keep it current.
+`profile.md` is the foundational document the rest of the grad-school-app skill set depends on. It is a **living document** — built once here, then continuously updated by sop-coach (narrative section) and by any skill that surfaces new facts (research, recommenders, etc.). The target program list lives in a separate file (`programs.md`) maintained by the program skills.
 
 ## Behavior
 
@@ -75,6 +75,8 @@ End by drafting `profile.md`, showing it to the user, accepting edits, and writi
 - **Total applications:** N
 - **Estimated budget:** $X for fees (before waivers)
 
+> The actual program list is maintained separately in `programs.md` at the project root.
+
 ## Academic background
 - **Institution:** [school, current year, expected graduation]
 - **GPA:** X.XX / 4.00
@@ -117,13 +119,6 @@ End by drafting `profile.md`, showing it to the user, accepting edits, and writi
 [Things that disqualify a program regardless of fit]
 - ...
 
-## Target programs
-<!-- written and updated by program-discovery and program-evaluation -->
-
-| Program | Tier | Weighted score | Top PI | One-line fit | Scorecard |
-|---|---|---|---|---|---|
-| [name] | reach/match/safety | X.X | [PI name] | [hook] | [programs/{slug}/scorecard.md](programs/{slug}/scorecard.md) |
-
 ## Scientific identity narrative
 <!-- append-only section, written by sop-coach and future ps-coach / rs-coach -->
 <!-- Each subsection accumulates timestamped session blocks as the user articulates their scientific identity through essay work. -->
@@ -155,9 +150,9 @@ End by drafting `profile.md`, showing it to the user, accepting edits, and writi
 
 ## Notes on the living-document nature
 
-- **Target programs section** is initialized empty by profile-builder. It gets populated when the user runs program-discovery (initial list) and refreshed when program-evaluation produces scorecards.
-- **Scientific identity narrative section** is initialized with empty subsections by profile-builder. It gets filled across sessions as the user works with sop-coach (and later ps-coach / rs-coach). The subsections accumulate timestamped session blocks; nothing is ever overwritten.
+- **Scientific identity narrative section** is initialized with empty subsections by profile-builder. It gets filled across sessions as the user works with sop-coach (and later ps-coach / rs-coach). Subsections accumulate timestamped session blocks; nothing is ever overwritten.
 - **Factual sections** (research experience, recommenders, etc.) can be updated by any skill that surfaces new facts during grilling, using the clean-rewrite-with-audit-comment protocol.
+- **Program target list does NOT live here.** It lives in `programs.md` at the root, written by program-discovery and maintained by program-evaluation. profile.md is about the applicant; programs.md is about the targets.
 
 ## Anti-patterns
 
@@ -168,4 +163,5 @@ End by drafting `profile.md`, showing it to the user, accepting edits, and writi
 - **Skipping the recommender section** because it's awkward. This is critical info for LoR management later.
 - **Treating the CV's subfields as the target subfields.** Past research doesn't equal future direction — ask.
 - **Accepting "I don't know" as a final answer on career goals.** Push for at least a leaning; mark tentative if genuinely unsettled.
-- **Omitting the Target programs and Scientific identity narrative sections** because they're "empty". Other skills depend on these sections existing — initialize them with the template structure even when there's no content yet.
+- **Omitting the Scientific identity narrative section** because it's "empty". sop-coach depends on it existing — initialize it with the template structure even when there's no content yet.
+- **Putting program-specific information in profile.md.** That goes in `programs.md`. Keep profile.md focused on the applicant.

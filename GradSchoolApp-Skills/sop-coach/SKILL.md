@@ -14,19 +14,25 @@ The goal of an SoP is not to demonstrate that the applicant is a good physics st
 
 Two modes, user-driven transition.
 
-**Scaffolding mode (default).** At the start of each session: read `profile.md` (especially the Scientific identity narrative section), then scan the `programs/` folder for any scorecards relevant to the user's intent. Identify which question clusters have prose vs. which are empty or thin. Flag 2–3 "gems" — material recorded but not yet articulated as scientific identity. Recommend a cluster to work on. Grill the user using that cluster's probing questions, one at a time, with a recommended answer drawn from CV / profile / scorecard material. After several questions, synthesize the user's answers into bio-style prose. Show the synthesis, accept edits, then append to the corresponding subsection of profile.md as a timestamped session block.
+**Scaffolding mode (default).** At the start of each session: read `profile.md` (especially the Scientific identity narrative section), read `programs.md` to see the full target list, and scan the `programs/` folder for any scorecards relevant to the user's intent. Identify which question clusters have prose vs. which are empty or thin. Flag 2–3 "gems" — material recorded but not yet articulated as scientific identity. Recommend a cluster to work on. Grill the user using that cluster's probing questions, one at a time, with a recommended answer drawn from CV / profile / scorecard material. After several questions, synthesize the user's answers into bio-style prose. Show the synthesis, accept edits, then append to the corresponding subsection of profile.md as a timestamped session block.
 
 **Critique mode.** Triggered when the user pastes draft SoP prose. Run the six-check critique in order. Output specific, actionable findings — quoted phrases or line locations, never vague "make it stronger" feedback.
 
-## Pre-session: mine profile.md for gems
+## Pre-session: mine for gems
 
-Before grilling, scan the whole `profile.md` (factual sections, narrative section, target programs) and any program scorecards. Look for material that's been recorded but not yet excavated into scientific identity. Examples of gems:
+Before grilling, scan:
+- The whole `profile.md` (factual sections, narrative section)
+- `programs.md` (current target list, deadlines, any cross-program observations)
+- Any program scorecards in `programs/{slug}/scorecard.md`
+
+Look for material that's been recorded but not yet excavated into scientific identity. Examples of gems:
 
 - A CV bullet about a specific technique (e.g., Koopman operator analysis) that hasn't been connected to a broader intellectual interest (nonlinear dynamics, hidden geometric structure).
 - A double major or unusual pathway (e.g., history-historiography) that's listed as a fact but not articulated as a perspective.
 - A recommender's specialty area that hints at an intellectual lineage the user hasn't claimed.
 - A research project that's been described mechanically (what was done) but not interpretively (why it mattered, what it revealed about the user's taste).
 - An anomalous course choice or program participation that signals taste but hasn't been used.
+- A PI on the target list whose recent papers connect to a technique in the user's CV in a way the user hasn't articulated.
 
 Flag the top 2–3 gems at the start of the session. Recommend grilling questions that excavate them.
 
@@ -91,7 +97,7 @@ For each finding, output: location (quoted phrase or paragraph number), what's w
 ## Output files
 
 - **Core SoP** lives at the project root as `core-sop.md`. Program-agnostic content: lineage, signature, trajectory, taste, open-questions, cross-pollination material. The user owns this file; the skill never writes prose into it — only critiques.
-- **Per-program tailoring blocks** live at `programs/{program-name}/essays/sop-tailoring.md`. Named PIs, paper citations, contribution articulation. Same rule: user writes, skill critiques.
+- **Per-program tailoring blocks** live at `programs/{slug}/essays/sop-tailoring.md`. Named PIs, paper citations, contribution articulation. Same rule: user writes, skill critiques.
 
 The skill never modifies either file silently. Always shows the user findings and lets them revise.
 
@@ -122,12 +128,15 @@ If grilling surfaced new facts (a missing project detail, a recommender update, 
 
 Show the user the diff before saving. If no factual changes surfaced, leave factual sections alone.
 
+**Note: sop-coach never writes to programs.md.** That file is owned by program-discovery and program-evaluation. If grilling surfaces information that should change a program's entry (a sharper hook, an updated PI), surface it to the user as a recommendation to re-run program-evaluation rather than editing programs.md directly.
+
 ## Anti-patterns
 
 - **Writing SoP prose for the user.** The skill never generates draft SoP paragraphs. The synthesis step produces bio-prose for the knowledge base, not SoP material the user can submit.
 - **Vague critique.** "This paragraph could be stronger" is useless. Critique must point to specific phrases and propose a direction for revision.
-- **Skipping the pre-session gem mining.** Always scan profile.md and scorecards before grilling. Material accumulates across sessions and old facts become new starting points.
+- **Skipping the pre-session gem mining.** Always scan profile.md, programs.md, and scorecards before grilling. Material accumulates across sessions and old facts become new starting points.
 - **Treating all 7 clusters as equally important per session.** Recommend the cluster that's emptiest or most upstream. Don't try to cover everything at once.
 - **Letting Q&A be the final form in profile.md.** Always synthesize answers into bio-style prose before writing to profile.md. Q&A transcripts are working material, not knowledge-base entries.
 - **Critiquing tailoring blocks without re-reading the program scorecard.** Specificity in tailoring requires checking against the current scorecard each time, not relying on memory.
 - **Generating gems the user didn't actually say.** Gems are excavated from existing material, not invented. If a gem isn't really there, recommend grilling to surface one rather than inventing one.
+- **Editing programs.md.** That file is owned by program-discovery and program-evaluation. sop-coach reads it; it never writes to it.

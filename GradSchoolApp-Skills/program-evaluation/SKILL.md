@@ -8,22 +8,22 @@ For first-pass discovery of which programs belong on the list, use the Program D
 
 ## Behavior
 
-Read `profile.md` from the project before searching. Produce a structured scorecard for one program at a time. Mandatory web search for every field — flag any field that couldn't be verified rather than guessing.
+Read `profile.md` (for the applicant context) and `programs.md` (to confirm the program is on the target list and look up its tier and current row data) before searching. Produce a structured scorecard for one program at a time. Mandatory web search for every field — flag any field that couldn't be verified rather than guessing.
 
-After producing the scorecard, write it to disk inside a per-program folder under `programs/`, and create the matching `essays/` subfolder so essay-coach skills (sop-coach, future ps-coach and rs-coach) can drop tailoring blocks there.
+After producing the scorecard, write it to disk inside a per-program folder under `programs/`, create the matching `essays/` subfolder so essay-coach skills can drop tailoring blocks there, and update the corresponding row in `programs.md`.
 
 ## Output folder structure
 
-For a program named e.g. "MIT-physics", produce:
+For a program with slug e.g. `mit-physics`, produce:
 
 ```
 programs/
-└── MIT-physics/
+└── mit-physics/
     ├── scorecard.md     ← this skill writes here
-    └── essays/          ← empty folder created here, populated later by essay skills
+    └── essays/          ← empty folder created here, populated later by essay-coach skills
 ```
 
-Folder names use kebab-case, lowercase, university-first when ambiguous (e.g. `mit-physics`, `rochester-optics`, `boulder-jila`, `delft-qutech`).
+Folder names use kebab-case, lowercase, university-first when ambiguous (e.g. `mit-physics`, `rochester-optics`, `boulder-jila`, `delft-qutech`). Use the same slug that program-discovery used in `programs.md` so the link from the summary table resolves correctly.
 
 ## Scoring criteria (weighted)
 
@@ -38,7 +38,7 @@ Folder names use kebab-case, lowercase, university-first when ambiguous (e.g. `m
 
 Each criterion scored 1–10 with a one-sentence justification. Weighted total at the bottom.
 
-## Output format (scorecard.md contents)
+## scorecard.md contents
 
 ### Program: [name] | Tier: [reach/match/safety]
 
@@ -89,13 +89,19 @@ List every field that couldn't be verified during search. Always include this se
 <!-- last updated: YYYY-MM-DD by program-evaluation -->
 ```
 
-## Update profile.md Target programs summary
+## Update programs.md after writing scorecard
 
-After writing the scorecard, also update the **Target programs** section in `profile.md` — add or refresh a row for this program with:
+After writing the scorecard, do a clean rewrite of the corresponding row in `programs.md`:
 
-- Program name | tier | weighted total | top PI | one-line fit | relative path to scorecard (e.g., `programs/mit-physics/scorecard.md`)
+- **Weighted score** column: replace `_pending_` with the actual weighted total (e.g., `7.3`)
+- **Scorecard** column: replace `_not yet evaluated_` with the markdown link `[scorecard](programs/{slug}/scorecard.md)`
+- **Top PI** column: refresh if a different PI emerged as top-fit during evaluation
+- **One-line fit** column: refresh if the evaluation surfaced a sharper hook
+- **Deadline** column: fill in if it was `_tbd_`
 
-This keeps `profile.md` usable as a dashboard. Use the clean-rewrite-with-audit-comment protocol for this section.
+Update the `<!-- last updated: ... -->` comment at the top of programs.md to reflect this skill's edit, but only edit the specific row — preserve all other rows and the Summary and Deadlines sections unchanged unless deadline data added.
+
+Also regenerate the Deadlines section if a new deadline was added.
 
 ## Sources to use
 
@@ -114,5 +120,6 @@ This keeps `profile.md` usable as a dashboard. Use the clean-rewrite-with-audit-
 - Skipping the Unknowns section when everything checked out — write "None" explicitly
 - Evaluating a PI who hasn't published in the user's subfield in the last 3 years without flagging that as a concern
 - Recommending the program based on prestige when PI fit scores low
-- Writing the scorecard without also updating profile.md's Target programs section
-- Forgetting to create the `essays/` subfolder — essay skills depend on it existing
+- Writing the scorecard without also updating the row in programs.md
+- Touching other rows in programs.md beyond the one being evaluated
+- Forgetting to create the `essays/` subfolder — essay-coach skills depend on it existing
