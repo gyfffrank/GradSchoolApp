@@ -1,5 +1,5 @@
 # Target programs
-<!-- last updated: 2026-05-26 by program-evaluation (rochester-optics, cornell-aep, columbia-physics — all updated to 3+ PIs) -->
+<!-- last updated: 2026-05-26 by program-evaluation (rochester-optics, cornell-aep, columbia-physics, colorado-jila) -->
 
 ## Summary
 - **Total applications:** 28 (PhD: 18, MS: 10)
@@ -18,7 +18,7 @@
 | 5 | Physics | U Chicago | reach | Jonathan Simon | Simon's photonic Laughlin states connect quantum optics + nonlinear dynamics; Chicago Quantum Exchange industry pipeline | _tbd_ | _pending_ | _not yet evaluated_ |
 | 6 | Physics | Yale | reach | Jack Harris | Rakich's nonlinear photonic waveguide work maps to optical networking; Harris top-tier in quantum optomechanics | _tbd_ | _pending_ | _not yet evaluated_ |
 | 7 | Institute of Optics | U Rochester | match | Eileen Otte / Nick Vamivakas | World's premier optics program; SLM + structured light + optical analog work maps directly; Otte (new Jan 2025) is near-exact fit | Dec 1 (verify) | 8.6 | [scorecard](programs/rochester-optics/scorecard.md) |
-| 8 | Physics / JILA | U Colorado Boulder | match | Shuo Sun | Sun's nanophotonic quantum optics is a direct subfield match; JILA is top-3 AMO institute globally | _tbd_ | _pending_ | _not yet evaluated_ |
+| 8 | Physics / JILA | U Colorado Boulder | match | Shuo Sun | Sun's Dec 2024 NSF CAREER for quantum internet photonic register is most direct quantum networking match on list; Regal (microwave-to-optical transducer) + Thompson (cavity QED) round out; Physics GRE strongly recommended — must sit | Dec 1 | 8.2 | [scorecard](programs/colorado-jila/scorecard.md) |
 | 9 | Physics / JQI | U Maryland | match | Mohammad Hafezi | Hafezi's topological photonics + Gorshkov's quantum networking theory hit both research interest and career goal | _tbd_ | _pending_ | _not yet evaluated_ |
 | 10 | Applied & Engineering Physics | Cornell | match | Karan Mehta | Mehta's 2025 structured light paper (PRL Applied) is a direct SLM technique overlap; $59k stipend; Ithaca NY Northeast | Dec 15 | 7.8 | [scorecard](programs/cornell-aep/scorecard.md) |
 | 11 | APAM (Applied Physics) | Columbia | match | Alexander Gaeta / Michal Lipson | Gaeta (quantum light generation for comms, direct hit) + Lipson (silicon quantum photonics) + Asenjo-Garcia (quantum networks theory); NYC Northeast; apply via APAM | Dec 4 | 7.1 | [scorecard](programs/columbia-physics/scorecard.md) |

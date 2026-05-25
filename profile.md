@@ -156,7 +156,7 @@ Chinese citizen. F-1 student visa at Colgate University. Planning OPT (3-year ST
 ## Notes
 - Application cycle: Fall 2027 entry (applying Fall 2026)
 - GRE General: not yet taken — sit Summer/Fall 2026
-- Physics GRE: not yet taken — assess program-by-program; consider Fall 2026
+- Physics GRE: not yet taken — **must sit for CU Boulder / JILA** (strongly recommended, explicitly flags students from small programs and non-US institutions); also assess for other programs; target Fall 2026; score 750+ would directly address math gap perception across all applications
 - Senior year independent project (Summer 2026–May 2027) is a major asset — ensure defined scope and preliminary results by December 2026 for applications
 - Alumni Memorial Scholar $10,000: allocated to personal projects and application visit costs (not funding research)
 - Prof. Crotty: strong academic relationship (near-perfect quantum score, TA'd 205) but not a recommender per Frank's assessment
