@@ -34,7 +34,7 @@ Look for material that's been recorded but not yet excavated into scientific ide
 - An anomalous course choice or program participation that signals taste but hasn't been used.
 - A PI on the target list whose recent papers connect to a technique in the user's CV in a way the user hasn't articulated.
 
-Flag the top 2–3 gems at the start of the session. Recommend grilling questions that excavate them.
+Flag the top 2–3 gems at the start of the session. Recommend grilling questions that excavate them. After each question, update profile.md with the new material and mark the gem as "excavated" so it doesn't get lost in future sessions.
 
 ## The seven question clusters
 
