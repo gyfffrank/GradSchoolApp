@@ -133,7 +133,20 @@ Chinese citizen. F-1 student visa at Colgate University. Planning OPT (3-year ST
 <!-- append-only section, written by sop-coach -->
 
 ### Intellectual lineage
-[To be developed with sop-coach]
+
+#### Session: 2026-06-02 (sop-coach, cluster: intellectual lineage)
+
+My intellectual lineage is still forming — I'm a rising senior, not a second-year PhD student, and I want to be honest about what I've actually absorbed versus what I'm building toward.
+
+The researcher I've engaged with most directly outside my own lab is Michael Berry. I read his work on the nonlinearity of caustic patterns in gravitational lensing — specifically the wavelength-dependent structure of caustics — because it connects directly to observations in the GL project data that may be the subject of a future paper. That encounter was substantive: I found a specific result in Berry's lensing analysis that appears in our own measurements, and verifying that connection is part of the ongoing work. I've read Berry's geometric phase paper much more briefly; it's on my list to read seriously before applications, because the Poincaré sphere problem I want to pursue for my senior project sits squarely inside that tradition and I don't want to reference it without real content.
+
+The tradition I'm most directly working inside is Kiko's (Prof. Galvez's) structured light program at Colgate. Reading his papers taught me how research in this area is constructed — how optical analogs are designed, how phase profiles encode physical states, how to move between theory and tabletop implementation. That's been more formative than any single paper: learning a research style, not just a result.
+
+My self-directed reading program is driven by gaps I identified and decided to fix. Crotty's quantum mechanics course was heavily matrix-based, and while I worked through it, the formalism was opaque in a specific way — the physical content kept disappearing behind the algebra. Sakurai's Modern Quantum Mechanics gave me what was missing: it combines Dirac bra-ket notation with matrix formalism in a way that keeps the physical objects visible throughout. I'm comfortable with mathematics, but I need the mathematical objects to have physical meaning I can track; bra-ket notation gives me that in a way that pure matrix manipulation doesn't. That preference runs through my research approach too — I read the theory before touching the setup, I simulate before building, and I go back to primary papers when the physical picture isn't clear.
+
+Topology is next on the list for a specific reason: the Poincaré sphere, which is the mathematical object at the center of my proposed senior project, is a topological structure — the 2-sphere, S². The higher-order Poincaré spheres I want to extend to are more complex topological spaces, and the polarization optics I already work with daily (half-wave plates, quarter-wave plates) are physically described by transformations on that sphere. I want to understand the mathematics of the physical objects I work with, not use them as black boxes. Abstract algebra is on the list for the same reason — group theory underlies the symmetry structure of quantum states and optical polarization, and I'd rather build that foundation before PhD coursework than catch up during it.
+
+The through-line, honest version: my lineage runs from Kiko's structured light program, through Berry's geometric and lensing work, toward a topology-grounded understanding of geometric phase in higher-dimensional optical state spaces. I haven't read all the foundational papers in this tradition yet — Allen et al. on orbital angular momentum, Pancharatnam on geometric phase in optics, the broader structured light literature — but I know what I need to read and why, and I'm building toward it deliberately rather than waiting for a course to assign it.
 
 ### Technical signature
 
