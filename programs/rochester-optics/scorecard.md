@@ -1,118 +1,63 @@
-# Program: University of Rochester — Institute of Optics | Tier: match
+### Program: The Institute of Optics, University of Rochester (PhD in Optics) | Tier: match ⭐ PRIME TARGET
 
-## Scorecard
+> **PI-oriented rebuild (2026-07-05).** This list is now organized around structured-light PIs rather than quantum-networking generalists. Rochester is the single densest cluster of structured-light PIs in the US — it is both the historical home of the field (Nick Bigelow authored the "structured light + ultracold atoms" chapter of the 2017 Roadmap) and its current center of gravity.
 
+#### Scorecard
 | Criterion | Weight | Score | Justification |
 |---|---|---|---|
-| PI fit | 40% | 9/10 | Three viable PIs in Frank's exact subfields: Otte (structured singular light — direct SLM overlap), Vamivakas (quantum nanophotonics), Renninger (photon-phonon optomechanics for quantum info); no other program on the list has three PIs this closely matched |
-| Program quality in optics-photonics | 15% | 10/10 | World's premier dedicated optics program (est. 1929); three Nobel laureates among alumni/faculty lineage; #1 by any optics-specific metric |
-| Funding security for international students | 15% | 7/10 | Full tuition waiver + stipend guaranteed for all admitted PhD students; international students eligible; university-wide minimum $25k–$35k depending on appointment length; optics-specific amount above minimum not confirmed |
-| Location and cost-of-living | 10% | 9/10 | Rochester NY is Northeast preferred; significantly more affordable COL than NYC/Boston/Ithaca; ~90 min from Syracuse (Frank's girlfriend's hometown); bonus geographic alignment |
-| Placement record | 10% | 7/10 | Strong reputation for optics industry placement (NY Photonics cluster: Corning, L3 Harris, II-VI/Coherent, Panavision nearby); academic placements known; specific recent alumni data from Vamivakas/Otte/Renninger groups not verified |
-| Application feasibility | 10% | 8/10 | Average incoming GPA 3.7; Frank's 3.92 exceeds; GRE not required; Frank's SLM + structured light + OPICA/FIO + Physics Today submission is precisely the profile Rochester's quantum optics faculty recruits; Galvez is known in this community |
+| PI fit | 40% | 10 | Four+ PIs (Bigelow, Alonso, Otte, Boyd) work *directly* on Frank's signature — SLM structured light, Poincaré/higher-order Poincaré spheres, singular optics, optical analogs, structured light + cold atoms. Nothing else on the list matches this density. |
+| Program quality (optics-photonics) | 15% | 10 | The Institute of Optics is the #1 dedicated optics program in the US; structured light is a core institutional strength, not a niche. |
+| Funding (international) | 15% | 8 | PhD students fully funded (TA/RA + tuition); international students eligible for RA lines. Confirm current stipend figure. |
+| Location & COL | 10% | 8 | Rochester NY — upstate Northeast, very low COL, high stipend-to-COL ratio; girlfriend in Syracuse is ~1.5 h away. |
+| Placement | 10% | 9 | Institute of Optics places into national labs, photonics industry (major Rochester optics cluster), and faculty; strong for OPT→H-1B industry track. |
+| Application feasibility | 10% | 8 | Frank's profile (GPA 3.92, Galvez SLM/structured-light research) is an unusually clean match; GRE not required. Realistic admit. |
+| **Weighted total** | | **9.2** | Highest on the list. Run PI outreach here first. |
 
-**Weighted total: 8.6 / 10**
+#### Target PIs (top 3)
 
----
+**1. Nicholas P. Bigelow** — Lee A. DuBridge Professor of Physics & of Optics; Chair, Physics & Astronomy. Group: Bigelow Cold Atom (CAT) Group. *Roadmap Ch. 12 author.*
+- Featured papers:
+  1. Schultz, Hansen, Murphree, Bigelow et al., **"Creating full-Bloch Bose–Einstein condensates with Raman q-plates"** — structured light imprints full-Poincaré-sphere spin textures onto a BEC.
+  2. Work on **skyrmion / meron spin textures and singular-optics analogues in BECs** (structured-light–matter topological states).
+  3. Recent **structured light + ultracold atoms in microgravity** (NASA Cold Atom Lab collaboration).
+- **Fit (near-perfect):** Bigelow *is* the "structured light meets cold atoms + optical analogs" niche. Frank's SLM optical analogs (gravitational lensing, quantum pendulum) and his Poincaré-sphere "lifting" reflex map onto Bigelow's q-plate/Poincaré-BEC program almost one-to-one. This is the single best PI-fit on the entire list.
 
-## Target PIs (top 3)
+**2. Miguel A. Alonso** — Professor, The Institute of Optics. Group: Mathematical Optics / Alonso Research Group.
+- Featured papers:
+  1. **"Structured light: ray, wave, and polarization aspects"** — a defining review of the field's geometry.
+  2. **"Modal Majorana sphere and hidden symmetries of structured-Gaussian beams"** (arXiv 1901.06987) — sphere-representation of structured beams.
+  3. **"Experimental measurement of transverse spin dynamics in the nonparaxial focal region"** (2024, arXiv 2409.20145).
+- **Fit (spine of Frank's narrative):** Alonso formalizes exactly the "lift to a higher-dimensional sphere to reveal hidden structure" move that Frank identified as his recurring intellectual reflex (Poincaré → Majorana sphere). Theory-leaning; pairs beautifully as co-advisor with an experimentalist (Bigelow/Otte). Read his review before outreach.
 
-### Eileen Otte — Assistant Professor of Optics
-- **Group:** Structured Singular Light group (new lab, joined Rochester January 2025; previously postdoc at Stanford GLAM with Mark Brongersma)
-- **Group size:** New faculty — small, likely 1–3 students; openings probable
-- **Recent papers (from PhD/postdoc, pre-Rochester):**
-  - *Structured Singular Light Fields* (Springer Theses, 2021) — comprehensive treatment of singular optics including topological structures and optical vortices
-  - *Topologically protected four-dimensional optical singularities* (arXiv 2022) — 4D topological structures in structured light
-  - *Singular optics empowered by engineered optical materials* (2024) — nanophotonic-enabled singular optics
-- **Alumni placements:** Lab too new to have PhD graduates
-- **Frank's specific hook:** Frank's OPICA/FIO gravitational lensing analog work uses SLM-encoded phase profiles to generate structured wavefronts — this is the experimental vocabulary of Otte's singular optics research. The Fourier-plane encoding in the quantum pendulum project is a direct technique overlap. Otte joined January 2025 and will be actively building her group when Frank applies in Fall 2026.
+**3. Eileen Otte** — Assistant Professor, The Institute of Optics (joined **Jan 2025**). Focus: structured singular light, nanoscale light–matter, quantum cryptography.
+- Featured papers:
+  1. **"Structured Singular Light Fields"** (Springer Theses, summa cum laude / WWU Dissertation Award).
+  2. Postdoctoral **structured light + nanophotonics** work (Stanford/Brongersma, GLAM).
+  3. First-author corpus (14 first-author papers) on singular optics & structured-light entanglement.
+- **Fit (exact + strategic):** Trained under **Cornelia Denz** (Roadmap Ch. 6, "Shaping light") *and* **Andrew Forbes** (Roadmap Ch. 22, "Tailoring light at the source") — she is a direct intellectual descendant of two chapters Frank flagged. As a brand-new PI she is actively building a group and taking students, which favors an incoming PhD. Highest-leverage outreach target for Frank.
 
-### Nick Vamivakas — Leonard Mandel Faculty Fellow in Quantum Optics; Associate Professor of Optics, Physics, and Materials Science
-- **Group:** Quantum Nanophotonics Group
-- **Group size:** ~5–8 students + postdocs (active mid-size group)
-- **Recent research focus:**
-  - Solid-state quantum emitters (quantum dots, defect centers in 2D materials)
-  - Optical levitation for quantum decoherence studies
-  - Nanophotonic devices for light-matter interaction control
-  - *Nonlinear nanophotonics for high-dimensional quantum states* (2025, PMC) — high-dimensional quantum state generation via nonlinear nanophotonics
-- **Alumni placements:** Group active since ~2012; alumni include academic postdocs and industry placements; specific data not verified — flag as unknown
-- **Frank's specific hook:** Vamivakas's interest in using optics to interrogate solid-state quantum emitters maps onto Frank's Helmholtz–Schrödinger equivalence framework — structuring light to probe quantum systems is the shared intellectual thread
+*Also on the bench:* **Robert W. Boyd** (OAM entanglement, quantum imaging, high-dimensional QKD with structured photons — networking overlap) and **Nick Vamivakas** (quantum/levitated optomechanics, structured-light metrology).
 
-### William Renninger — Associate Professor of Optics
-- **Group:** Renninger Lab (quantum acoustics / Brillouin optomechanics)
-- **Group size:** ~3–5 students
-- **Recent papers:**
-  - *Stimulated Brillouin-like Optomechanics with Surface Acoustic Wave Cavities* (CLEO 2023) — record-low-loss SAW cavity modes for photon-phonon coupling
-  - *On-chip distribution of quantum information using traveling phonons* (Nature Communications 2022) — phonon-based quantum information routing
-  - *High-frequency cavity optomechanics using bulk acoustic phonons* (Science Advances) — bulk crystalline resonators for optomechanics
-- **Alumni placements:** Not verified
-- **Frank's specific hook:** Renninger's traveling-wave optomechanical platform for quantum information processing connects to Frank's optical networking career goal — phonon-mediated quantum information routing is a quantum networking primitive; Frank's experimental instrumentation skills are directly applicable
+#### Funding details
+- Full PhD funding (TA first year → RA); tuition waiver + stipend. International students eligible for RA support.
+- **Unknown / verify:** current annual stipend figure; summer support; any structured-light-specific fellowships.
 
-### Svetlana Lukishova — Research Professor of Optics
-- **Group:** Quantum Nanophotonics and Liquid Crystal Optics (longest-running quantum optics teaching lab at Rochester — 15+ years)
-- **Group size:** Small, ~2–4 students
-- **Research focus:** Quantum nanophotonics, liquid crystals as reconfigurable optical elements, nonlinear optics, single-photon sources using liquid-crystal-hosted emitters, quantum cryptography experiments
-- **Relevant publication:** Co-organized and published 15-year retrospective of Rochester's Quantum Optics, Quantum Information, and Nano-Optics Educational Facility (Optical Engineering, 2022)
-- **Alumni placements:** Not verified
-- **Frank's specific hook:** Lukishova's work on liquid-crystal-based structured-light control and single-photon source engineering overlaps with Frank's SLM phase-encoding expertise; her nonlinear optics background connects to the quantum pendulum dynamics project (Helmholtz–Schrödinger equivalence is also central to nonlinear optics problems)
+#### Application logistics
+- **Unknown / verify (Fall 2027 cycle):** exact deadline (historically ~Dec 15 / early-Jan; the older programs.md listed ~Dec 1 — re-verify), application fee + waiver, LoR count, whether the MS in Optics auto-consideration still holds (it did — single app/fee; see rochester-ms).
+- GRE: not required (verify Physics GRE optional status).
 
----
+#### Program quirks
+- Dedicated optics PhD (not a physics dept) — coursework is optics-centric, an advantage for Frank's applied signature.
+- Massive local photonics industry cluster (good for OPT internships).
 
-## Funding details
-- **Years of guaranteed funding:** Implied full funding through PhD completion; department fellowship for year 1, RA from advisor from year 2 onward
-- **Annual stipend:** University-wide minimum $25,000 (9-month) / $35,000 (12-month) as of September 2025; program-specific amount above minimum not confirmed — verify with Kat Davies (graduate coordinator)
-- **Funding source:** Year 1 — department fellowship; Year 2+ — RA (advisor grants); TA required for 2 semesters (typically year 2)
-- **Summer support policy:** Not confirmed — flag as unknown
-- **Fellowship match / top-up policy:** Internal fellowships available; all applications automatically considered
-- **International-student eligibility:** Eligible for standard RA/TA funding; NSF GRFP ineligible (non-citizen); internal fellowships open — verify whether any have citizenship restrictions
+#### Community signal
+- Widely regarded as the top US destination for anyone whose identity *is* optics/structured light rather than "physics that uses optics." (Signal, not verdict.)
 
----
+#### Red flags
+- None specific to structured light. Bigelow is senior + department chair — confirm bandwidth for a new student; Otte (new PI) partly mitigates by offering a growing group.
 
-## Application logistics
-- **Deadline:** Not confirmed from search — likely December 1 (verify on program website before applying)
-- **Application fee:** $70; fee waiver form available at admissions.enrollment.rochester.edu/register/app_fee_waiver
-- **GRE policy:** Not required; encouraged for PhD; 80th+ percentile recommended if submitted — optional effectively
-- **Required materials:** Transcripts, 3 LoRs, SoP, CV; MS degree not required for PhD admission
-- **International-student contact:** International Student Office at U Rochester; graduate coordinator Kat Davies for program-specific questions
+#### Unknowns
+- Fall 2027 deadline, fee/waiver, current stipend, Bigelow's student-intake plans, Otte group capacity. All to verify during Aug–Oct 2026 outreach.
 
----
-
-## Program quirks
-- **Cohort size:** ~12–15 PhD students per year (recently expanding per 2025 news article — program growing to meet national optics demand)
-- **Admit rate:** Not publicly stated; community-estimated ~15–20% for PhD (community source, unverified)
-- **Qualifier exam style:** Research proposal — written paper (≤12 pages describing proposed research + literature survey + methodology) + oral presentation (25–30 min). NOT a comprehensive physics exam. Favorable for Frank, who will have actual research to propose.
-- **Coursework / time-to-candidacy:** Year 1 is coursework only; join group after 2 semesters; TA for 2 semesters (year 2); qualifier after joining group and defining research topic
-- **Rotations vs. direct admit:** No direct admit to a specific advisor — students complete coursework for one full year, then choose a group. Risk: Otte (new faculty, most fit) may fill her initial cohort spots in the first 1–2 years before Frank arrives.
-- **MS en route:** Yes — Institute of Optics awards MS en route for PhD students; separate MS program also available (MS admittees sometimes offered PhD track)
-- **No physics GRE requirement** — confirmed not required
-
----
-
-## Community signal
-- Rochester Institute of Optics is consistently described as the world's leading optics-specific graduate program with a tight-knit community; not a large anonymous department
-- Location (Rochester NY) described as affordable but cold, with limited nightlife compared to NYC/Boston; strong optics-industry town
-- Program culture described as collaborative and optics-focused vs. generalist physics programs; students self-select for dedication to optics specifically
-- Year 1 coursework-only structure allows students to explore groups before committing — generally viewed positively in community discussions
-
-*(Sources: program website, Reddit r/PhysicsGradSchool general optics discussions; no program-specific negative signals found)*
-
----
-
-## Red flags
-- **No direct advisor admit:** Frank cannot guarantee joining Otte's group — if she fills her slots before Frank arrives (she joined Jan 2025, so she will have 1–2 years of recruiting before Frank starts), he may need to pivot. Mitigate: cold email Otte early (July–August 2026) to express specific interest and learn about her group plans.
-- **Stipend amount above university minimum not confirmed:** $25k–$35k minimum is on the lower end for a PhD stipend vs. programs like MIT or Stanford. Rochester COL is low which mitigates this, but verify actual optics stipend before relying on budget estimates.
-
----
-
-## Unknowns
-- Exact PhD stipend above university minimum
-- Summer support policy
-- Whether specific internal fellowships have citizenship restrictions
-- Vamivakas and Renninger lab alumni career placements (specific data)
-- Exact application deadline (likely Dec 1 — verify)
-- Otte's planned group size and whether she will be actively recruiting for Fall 2027 entry
-
----
-
-## Audit
-<!-- last updated: 2026-05-26 by program-evaluation -->
+#### Audit
+<!-- last updated: 2026-07-05 by program-evaluation (PI-oriented structured-light rebuild) -->

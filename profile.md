@@ -175,7 +175,23 @@ The Koopman operator framework from the Chua's circuit project is the same idea 
 **Approach to new problems:** When I encounter an unfamiliar problem, I read the relevant texts and papers first to understand the theoretical structure, then run a brief MATLAB or Python simulation to develop intuition for the parameter space, then move to physical implementation. I don't build blind. The GL phase profile work is an example: before I could make the encoding work, I went back to the source paper to understand the Einstein ring geometry from first principles. That habit — tracing the math before touching the setup — is what let me solve the imaging problem that previous workers couldn't.
 
 ### Open questions
-[To be developed with sop-coach]
+<!-- COMPLETE — synthesized 2026-06-25; working notes below retained as raw record -->
+
+#### Working notes: 2026-06-02 (sop-coach, cluster: open questions — awaiting synthesis)
+
+**Raw Q&A — do not treat as final prose; synthesize after completing the cluster**
+
+The core problem Frank is working toward: entangled photon states move along geodesics on the Poincaré sphere (S²), but which geodesic they select is unresolved. Bill Luo (Galvez lab, graduated summer 2026) worked on this problem. Frank's instinct: the geodesic choice requires a higher-dimensional state space to explain — the standard Poincaré sphere doesn't capture all the relevant degrees of freedom. His candidate extension: higher-order Poincaré spheres, where OAM modes live, which are directly accessible via the SLM setup he already owns.
+
+Frank's working intuition on why the choice is unresolved: there are missing variables in the current description. The system may need a higher-order topological structure — more degrees of freedom — to fully specify which geodesic is taken. This is the same intellectual move Frank has made in two prior contexts: (1) Koopman operator on Chua's circuit — chaotic dynamics became analyzable by lifting to a higher-dimensional function space; (2) Fourier-plane encoding — hidden eigenstate structure became visible by working in the Fourier plane rather than direct space. He has not yet explicitly recognized this as a recurring pattern.
+
+**Resolved 2026-06-25 — synthesis below.** Frank's answers: (a) the missing-variable question can only be answered once the senior project actually starts (topic still TBD) — candidate is OAM / higher-order Poincaré spheres; the simple topological structure breaks down in complex regimes (multi-mode fiber cited as throwaway example). Held provisionally, not asserted. (b) Confirmed the "lift to higher-dimensional space" move is the same across Koopman, Fourier optics, and the Poincaré problem. His epistemic stance: the patterns are already there in nature; our role is to discover them and the right mathematics is what lets us represent them (scientific realism / Platonism — **deferred to Intellectual Taste cluster** per Frank's instruction).
+
+#### Session: 2026-06-25 (sop-coach, cluster: open questions)
+
+The open problem I actually think about comes from Bill Luo's work in Galvez's lab: entangled photon states evolve along geodesics on the Poincaré sphere, but *which* geodesic the system selects is unresolved. My instinct is that the geodesic is underdetermined because the standard Poincaré sphere — two degrees of freedom, the surface of S² — is too small a state space to carry all the relevant physics. The polarization sphere is adequate for simple cases but breaks down under more complex conditions. My candidate for the missing degree of freedom is orbital angular momentum, which lives naturally on the higher-order Poincaré spheres — and which I can already generate and manipulate with the SLM setup I own. I hold this provisionally. Whether OAM alone fixes the geodesic, or is only the first of several missing axes, is something I expect to answer empirically once my senior project is defined and underway, not something I can settle from the literature now. I'd rather state it as a live hypothesis with a clear test than as a conclusion I haven't earned.
+
+What pulls me toward this problem is a move I've now made three times. With the Koopman operator on the Chua's circuit, I lifted a chaotic system into a higher-dimensional function space and its hidden linear spectral structure became analyzable. In Fourier optics, I moved from direct space to the Fourier plane and a concealed eigenstate superposition became visible and physically decodable. The Poincaré-sphere problem has the same shape: enlarge the state space, and structure that looked arbitrary at the lower level becomes determined. I don't experience these as three separate skills — it's one recurring intellectual reflex, and recognizing it has clarified the kind of physicist I am: I'm drawn to problems where apparent complexity or arbitrariness resolves once you find the right enlarged space to view it in.
 
 ### Trajectory logic
 

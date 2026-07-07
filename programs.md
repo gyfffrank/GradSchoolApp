@@ -1,36 +1,34 @@
 # Target programs
-<!-- last updated: 2026-05-26 by program-evaluation (rochester-optics, cornell-aep, columbia-physics, colorado-jila) -->
+<!-- last updated: 2026-07-05 by program-discovery + program-evaluation (PI-ORIENTED STRUCTURED-LIGHT REBUILD) -->
+
+> **2026-07-05 major reframe.** The PhD list was rebuilt **PI-first** around **structured light** — Frank's actual experimental signature (SLM mode shaping, singular optics, Poincaré / higher-order Poincaré spheres, optical analogs) rather than the previous quantum-networking framing. Seeded from the *Roadmap on Structured Light* (Rubinsztein-Dunlop & Forbes, eds., J. Opt. 2017); scope locked with Frank: **US-only PIs**, **structured-light primary but keeping networking overlap**, **MS backups untouched**. Each PhD entry now leads with a named PI, that PI's top-3 featured papers, and an explicit fit evaluation (see per-program scorecards). See `structured-light-research-fields.md` for the field synthesis.
 
 ## Summary
-- **Total applications:** 28 (PhD: 18, MS: 10)
-- **PhD breakdown:** Reach 6 / Match 6 / Safety 6
-- **Earliest deadline:** _tbd_ — verify all deadlines via program-evaluation
+- **Total applications:** 22 (PhD: 12, MS: 10)
+- **PhD breakdown:** Reach 4 / Match 5 / Safety 3 — **below the old 6/6/6 target** (see Notes: genuine US-only structured-light fits are fewer than the old networking list; expanding requires broadening geography or research scope)
+- **Prime target:** U Rochester, The Institute of Optics (weighted 9.2) — the US epicenter of structured light
+- **Earliest deadline:** _tbd_ — most PhD deadlines ~Dec 1–15; verify each for Fall 2027
 - **Latest deadline:** _tbd_
 
-## PhD programs
+## PhD programs (PI-oriented, structured light)
 
-| # | Program | University | Tier | Top PI | One-line fit | Deadline | Weighted score | Scorecard |
+| # | Program | University | Tier | Top PI(s) | Featured PI work + one-line fit | Deadline | Weighted score | Scorecard |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Physics | MIT | reach | Vladan Vuletić / Dirk Englund | Vuletić (fault-tolerant optical interconnects + telecom quantum networking, Science 2025) + Englund (EECS joint, quantum photonics/structured light); strongest overall reach | _tbd_ | 8.2 | [scorecard](programs/mit-physics/scorecard.md) |
-| 2 | Applied Physics | Stanford | reach | Monika Schleier-Smith / Jelena Vučković | Schleier-Smith (photon-mediated graph states, Nature Physics 2024) + Vučković (Ti:sapphire-on-insulator, Nature 2024); **both GREs required**; Bay Area COL penalty | ~Dec 16 | 7.3 | [scorecard](programs/stanford-ap/scorecard.md) |
-| 3 | Physics | Caltech | reach | Manuel Endres / Andrei Faraon | Endres (6,100-qubit SLM tweezer array) + Faraon (rare-earth quantum memories, quantum repeaters) + Painter (microwave-to-optical transduction); GRE not required | Dec 15 | 7.6 | [scorecard](programs/caltech-physics/scorecard.md) |
-| 4 | Physics / ECE | Princeton | reach | Jeff Thompson (ECE) | Thompson (Er³⁺ telecom-band spin-photon entanglement, Optica 2024) **is ECE not Physics** — apply to Princeton ECE PhD; Liang Jiang is at UChicago not Princeton; Bakr (Physics, ultracold atoms) is Physics-dept fallback | ~Dec 15 | 7.5 | [scorecard](programs/princeton-physics/scorecard.md) |
-| 5 | Physics / PME | U Chicago | reach | Jonathan Simon / Tian Zhong | Simon (photonic Laughlin states, Physics) + Zhong (PME — telecom quantum networking 2000km, Nature Comms 2024) + Liang Jiang (PME — vacuum beam guide quantum networks, PRL 2024); **both GREs required**; consider two applications (Physics + PME) | ~Dec 15 | 7.8 | [scorecard](programs/uchicago-physics/scorecard.md) |
-| 6 | Physics | Yale | reach | Jack Harris / Peter Rakich | Harris (non-Hermitian quantum optomechanics, Nature Physics 2025 ×2) + Rakich (photonic chip oscillator Nature 2024, THz isolator Nature Photonics 2025); $50,777 stipend confirmed; Northeast (New Haven); best stipend-to-COL of reach tier | ~Dec 15 | 7.9 | [scorecard](programs/yale-physics/scorecard.md) |
-| 7 | Institute of Optics | U Rochester | match | Eileen Otte / Nick Vamivakas | World's premier optics program; SLM + structured light + optical analog work maps directly; Otte (new Jan 2025) is near-exact fit | Dec 1 (verify) | 8.6 | [scorecard](programs/rochester-optics/scorecard.md) |
-| 8 | Physics / JILA | U Colorado Boulder | match | Shuo Sun | Sun's Dec 2024 NSF CAREER for quantum internet photonic register is most direct quantum networking match on list; Regal (microwave-to-optical transducer) + Thompson (cavity QED) round out; Physics GRE strongly recommended — must sit | Dec 1 | 8.2 | [scorecard](programs/colorado-jila/scorecard.md) |
-| 9 | Physics / JQI | U Maryland | match | Mohammad Hafezi / Edo Waks | Hafezi (topological frequency combs, Science 2024) + Waks (QD–LiNbO₃ on-chip quantum networking, Nature Materials 2025) + Schine (Rydberg photon interactions, Nature Photonics 2025); **Gorshkov is NIST — off-table for Frank** | Dec 12 | 7.8 | [scorecard](programs/maryland-jqi/scorecard.md) |
-| 10 | Applied & Engineering Physics | Cornell | match | Karan Mehta | Mehta's 2025 structured light paper (PRL Applied) is a direct SLM technique overlap; $59k stipend; Ithaca NY Northeast | Dec 15 | 7.8 | [scorecard](programs/cornell-aep/scorecard.md) |
-| 11 | APAM (Applied Physics) | Columbia | match | Alexander Gaeta / Michal Lipson | Gaeta (quantum light generation for comms, direct hit) + Lipson (silicon quantum photonics) + Asenjo-Garcia (quantum networks theory); NYC Northeast; apply via APAM | Dec 4 | 7.1 | [scorecard](programs/columbia-physics/scorecard.md) |
-| 12 | Physics | Boston University | match | Alexander Sergienko | Sergienko (quantum walk optics, directionally unbiased multiports) + Popović (integrated silicon photonics) + Dal Negro (quantum photonic sensing, ARO grant); BU Photonics Center; Boston Northeast; $35k confirmed | Dec 15 | 6.8 | [scorecard](programs/bu-physics/scorecard.md) |
-| 13 | Physics | Stony Brook U (SUNY) | safety | Eden Figueroa | Figueroa (quantum memory / quantum repeater networks — direct networking fit) + Weinacht (ultrafast quantum control) + Schneble (ultracold atoms); Long Island NY; GRE not accepted | Dec 15 | 7.1 | [scorecard](programs/stony-brook/scorecard.md) |
-| 14 | Physics | RPI | safety | Moussa N'Gom | N'Gom (entangled structured light for optical comms — direct SLM overlap) + open quantum optics hire; Troy upstate NY; GRE ≥700 waives qualifier | _tbd_ | 6.6 | [scorecard](programs/rpi-physics/scorecard.md) |
-| 15 | Physics | Stevens Institute | safety | _tbd_ (quantum photonics cluster) | Quantum optics/photonics cluster (LiNbO₃, quantum dots, freq conversion); campus quantum-comms network; **verify base stipend** before committing; Hoboken NJ NYC metro; **GRE required from Spring 2027 — verify scope** | _tbd_ | 6.3 | [scorecard](programs/stevens-physics/scorecard.md) |
-| 16 | Physics | UMass Amherst | safety | Rajveer Nehra / Niffenegger | Nehra (ultrafast quantum photonics, DARPA $3.4M, Science/Nature — ECE adj) + Niffenegger (integrated photonics + trapped ions, NSF CAREER — ECE adj); NSF Center for Quantum Networks ($26M) core member; **verify ECE routing** | Dec 15 | 7.2 | [scorecard](programs/umass-physics/scorecard.md) |
-| 17 | Physics | U Pittsburgh | safety | David Snoke | Snoke (polariton condensates) + Youngblood (photonics lab, NSF CAREER, ECE adj) + Dutt (quantum control); PQI consortium with CMU; January deadline; Pittsburgh COL very low | Jan | 6.1 | [scorecard](programs/pitt-physics/scorecard.md) |
-| 18 | Physics | Syracuse U | safety ⚠️ | _tbd_ (no confirmed PI) | **CONDITIONAL — do not apply without confirmed experimental quantum optics PI**; geographic value (girlfriend in Syracuse area); ~$29–32k stipend; GRE not accepted | Dec 15 | 5.6 | [scorecard](programs/syracuse-physics/scorecard.md) |
+| 1 | The Institute of Optics | U Rochester | match ⭐ | **N. Bigelow** / M. Alonso / E. Otte | Bigelow (full-Bloch BEC via Raman q-plates; *Roadmap Ch.12*) + Alonso (ray-wave-polarization structured light, Majorana sphere) + Otte (structured singular light; trained under Denz & Forbes) — **densest structured-light cluster in the US; near-exact fit** | _tbd_ (~Dec) | **9.2** | [scorecard](programs/rochester-optics/scorecard.md) |
+| 2 | ECE | Boston University | match | **S. Ramachandran** | OAM/structured modes in fiber (Science 2013) + high-dim structured-light quantum sources — structured light → classical+quantum comms; **Northeast** | _tbd_ (~Dec 15) | 8.3 | [scorecard](programs/bu-ece/scorecard.md) |
+| 3 | ECE | Duke | match | **N. Litchinitser** | Optical knots in turbulence (Nat. Commun. 2025) + singular/nonlinear structured light (*Roadmap Ch.11*) — direct singular-optics fit | _tbd_ (~Dec 15) | 8.2 | [scorecard](programs/duke-ece/scorecard.md) |
+| 4 | Physics | Ohio State | match | **D. Gauthier** | High-dim OAM QKD (7-D, 2.1 bits/photon) + mobile QKD — structured light → quantum networking; Gauthier is a Rochester-Optics PhD | _tbd_ (~Dec 1) | 8.1 | [scorecard](programs/ohio-state-physics/scorecard.md) |
+| 5 | Physics / IREAP | U Maryland | match | **H. Milchberg** | Spatiotemporal optical vortices (Optica 2019) + transverse OAM — structured light in space+time (*Roadmap Ch.21*); Schawlow Prize 2024 | _tbd_ (~Dec 12) | 7.9 | [scorecard](programs/maryland-physics/scorecard.md) |
+| 6 | ECE | USC | reach | **A. Willner** / D. Christodoulides | Willner (OAM communications, APR 2021; Nat. Photon. 2012) + Christodoulides (accelerating beams, non-Hermitian) — **best structured-light↔comms fit**; LA | _tbd_ (~Dec 15) | 8.0 | [scorecard](programs/usc-ee/scorecard.md) |
+| 7 | Applied Physics (SEAS) | Harvard | reach | **F. Capasso** | Metasurface Mueller-matrix polarization imaging (Nat. Photon. 2024) + J-plate spin→OAM (Science 2017) — structured polarization/OAM; nanofab pivot | _tbd_ (~Dec 1) | 7.6 | [scorecard](programs/harvard-applied-physics/scorecard.md) |
+| 8 | Imaging Science (Carlson Ctr) | RIT | safety | **G. Swartzlander** | *Optical Vortices* (book) + vortex coronagraph + STOVs — foundational singular optics; **Rochester NY, ideal location** | _tbd_ | 7.6 | [scorecard](programs/rit-imaging-science/scorecard.md) |
+| 9 | ESE / MSE | U Pennsylvania | reach | **L. Feng** | OAM microlaser (Science 2016) + tunable vortex microlaser (Science 2020) — structured light *at the source* on-chip (*Roadmap Ch.22*); Northeast | _tbd_ (~Dec 15) | 7.4 | [scorecard](programs/penn-ese/scorecard.md) |
+| 10 | Physics / JILA | U Colorado Boulder | reach | **M. Murnane / H. Kapteyn** | EUV spatiotemporal vortices via HHG (Nat. Photon. 2025) + attosecond light skyrmions — structured light in time/EUV (*Roadmap Ch.21*); elite, ultrafast pivot | _tbd_ (~Dec 1) | 7.4 | [scorecard](programs/colorado-jila/scorecard.md) |
+| 11 | Physics (GC) / EE (CCNY) | CUNY — ASRC | safety ⚠️ | **A. Alù** | "Structured Light Meets Integrated Photonics" (2024) + time-metamaterials + metasurface OAM — **NYC**; PI competitive despite safety tier | _tbd_ | 7.0 | [scorecard](programs/cuny-asrc/scorecard.md) |
+| 12 | Physics | RPI | safety ⚠️ | **M. N'Gom** | Entangled structured light for optical comms (SLM) — direct bench + networking fit; **⚠️ verify PI still active before applying**; upstate NY | _tbd_ | 7.0 | [scorecard](programs/rpi-physics/scorecard.md) |
 
 ## MS backups
+<!-- unchanged in the 2026-07-05 rebuild per Frank's instruction; carried over from the 2026-05-26 quantum-networking pass -->
 
 | # | Program | University | Tier | Top PI | One-line fit | Deadline | Score | Scorecard |
 |---|---|---|---|---|---|---|---|---|
@@ -46,54 +44,36 @@
 | 10 | MS in Physics / ECE (Quantum Photonics) | Purdue | ms-backup | Hadiseh Alaeian | TA/RA available; Microsoft Quantum Lab on campus; strong PhD pathway; West Lafayette IN (not NE) | Dec 1 | 6.4 | [scorecard](programs/purdue-ms/scorecard.md) |
 
 ## Deadlines (sorted chronologically)
-<!-- all deadlines tbd — to be filled in by program-evaluation as each program is researched -->
-- _tbd_ (~Dec): MIT Physics — verify physics.mit.edu when Fall 2027 apps open
-- ~Dec 16: Stanford Applied Physics — verify; **both GREs required**
-- Dec 15: Caltech Physics — confirmed
-- ~Dec 15: Princeton Physics/ECE — verify; **apply to ECE PhD for Thompson**
-- ~Dec 15: U Chicago Physics (Simon) + PME (Zhong) — two separate apps; **both GREs required**
-- ~Dec 15: Yale Physics — verify
-- _tbd_: U Rochester Institute of Optics (PhD)
-- _tbd_: U Colorado Boulder / JILA
-- Dec 12: U Maryland / JQI
-- _tbd_: Cornell AEP
-- _tbd_: Columbia Physics / EE
-- Dec 15: Boston University Physics
-- Dec 15: Stony Brook Physics — GRE not accepted; do not submit scores
-- _tbd_: RPI Physics — PhD deadline not yet posted; contact department
-- _tbd_: Stevens Institute Physics — verify Fall 2027 deadline; GRE requirement emerging
-- Dec 15: UMass Amherst Physics — verify ECE routing for Nehra/Niffenegger
-- Jan _tbd_: U Pittsburgh Physics — January deadline (exact date verify)
-- Dec 15 (priority) / Jan 15 (final): Syracuse University Physics — **conditional; confirm PI first**
-- ~Dec 1: U Rochester MS Optics (auto-consideration from PhD app)
+<!-- PhD deadlines all _tbd_ pending Fall 2027 verification during Aug–Oct 2026 outreach; MS deadlines carried over -->
+**PhD (all to verify for Fall 2027):**
+- ~Dec 1: Harvard Applied Physics (Capasso); Ohio State Physics (Gauthier); Colorado/JILA (Murnane/Kapteyn)
+- ~Dec 12: U Maryland Physics (Milchberg) — re-verify
+- ~Dec 15: BU ECE (Ramachandran); Duke ECE (Litchinitser); USC ECE (Willner); Penn ESE (Feng)
+- ~Dec (verify): U Rochester Institute of Optics (Bigelow/Alonso/Otte) — **prime target, verify first**
+- _tbd_: RIT Imaging Science (Swartzlander); CUNY ASRC (Alù); RPI Physics (N'Gom — verify PI active first)
+
+**MS (carried over):**
+- ~Dec 1: U Rochester MS Optics (auto-consideration); Purdue MS
+- ~Dec 4: Columbia MS Applied Physics
 - ~Dec 10: Arizona Wyant MS (QISE track)
-- N/A: BU MA (not standalone — remove from independent count)
-- ~Dec 4: Columbia MS Applied Physics (pairs with APAM PhD app)
-- ~Jan 15: Stevens MS Physics (verify; GRE policy uncertain)
-- ~Dec 15: Stony Brook MA Physics (auto-consideration from PhD app)
-- ~Dec 15: Cornell MS Applied Physics (verify auto-consideration; unfunded)
-- **~Jul 1: Northeastern MS Physics — plan early; mid-summer deadline**
+- ~Dec 15: Stony Brook MA; Cornell MS Applied Physics
 - ~Dec 30: NYU Tandon MS Quantum Science & Technology
-- Dec 1 (priority): Purdue MS Physics/ECE
+- ~Jan 15: Stevens MS Physics
+- **~Jul 1: Northeastern MS Physics — plan early**
+- N/A: BU MA (not standalone)
 
 ## Notes
-- **Rochester is the prime target** (match #7 / MS #1) — Frank's experimental signature (SLM, structured light, optical analogs) maps directly to the Institute of Optics; run program-evaluation on this first
-- **Maryland/JQI flag:** Gorshkov is a NIST researcher — explicitly off-table for Frank; Hafezi, Waks, and Schine are UMD-funded JQI Fellows and are eligible advisors; confirm NIST appointment status before application; UMD PhD itself is open to international students
-- **Syracuse flag:** Apply only if at least one experimental quantum optics / AMO / photonics PI with open positions is confirmed; do not apply for geographic reasons alone; as of 2026-05-26, no confirmed PI — monitor department for hires
-- **UMass ECE routing flag:** Nehra and Niffenegger are both ECE-primary adjuncts in Physics — verify whether Physics PhD students can be primary-advised by them before applying to Physics PhD; may need UMass ECE application instead
-- **Stevens GRE flag:** GRE required from Spring 2027 for Physics PhD — verify whether this applies to Fall 2027 applications; also verify base stipend (not publicly listed) before committing application
-- **UMass NSF CQN:** UMass is a core institution in NSF Center for Quantum Networks ($26M) — unusual for a safety program; Nehra and Niffenegger are strong PIs despite safety-tier designation
-- **Stony Brook Eden Figueroa:** Figueroa is a quantum memory / quantum repeater experimentalist (warm atomic ensembles) — direct quantum networking fit; GRE scores not accepted at Stony Brook
-- **RPI and Pittsburgh PI research needed:** Both have limited current quantum optics visibility in search results — run program-evaluation to confirm PI fit before committing application fee
-- **Most PhD programs have Dec 1–15 deadlines** for Fall 2027 entry — all deadlines to be confirmed by program-evaluation; apply target submission buffer of 7 days before each deadline
-- **Florida hard exclude:** UF, FSU, UCF, and other Florida state-funded institutions excluded per SB 846 constraint (Chinese national)
-- **Three Northeast-cluster PhD programs share likely Dec 1–15 window:** MIT, Yale, Cornell, Columbia — plan all four tailoring blocks together by mid-November 2026
-- **Princeton routing:** Apply to Princeton **ECE** PhD (not Physics) to work with Thompson — Thompson and de Leon are both ECE; Liang Jiang is at UChicago PME, not Princeton
-- **UChicago double application:** Consider applying to both UChicago Physics (Simon) and UChicago PME (Zhong) — Tian Zhong (PME) is one of the best quantum networking PIs on the entire list; two fees required
-- **GRE required at Stanford and UChicago:** Both General + Physics GRE required for these two programs; Frank must sit both exams; no flexibility here
-- **Auto-consideration MS programs (confirm each):** Rochester (confirmed single app); Stony Brook (confirm in SoP); Columbia (confirm with APAM); Cornell (NOT confirmed — verify); Stevens (NOT confirmed — may need separate app)
-- **MS funding reality:** Most MS programs are NOT funded; funded options: Rochester (competitive), Arizona (RA case-by-case), Purdue (TA/RA competitive), Northeastern (TA/RA competitive + co-op income); unfunded: Cornell (~$64–70k), Columbia (~$66k), NYU Tandon (~$54k + NYC COL); Frank should investigate **China Scholarship Council (CSC)** fellowship as external funding source for unfunded programs
-- **BU MA is NOT standalone:** Remove from independent MS backup count; MA only available en route to BU PhD; effective independent MS backup count = 9 (removing BU)
-- **Northeastern July deadline:** Plan Northeastern MS application by April–May 2027 — mid-summer deadline is a planning trap
-- **NYU program update:** Apply to "MS in Quantum Science & Technology" (newly launched) not generic MS in Physics
-- **Outreach season:** July–early October 2026 is the window for PI cold emails; prioritize reaching out to Vamivakas (Rochester), Sun (JILA), Mehta (Cornell), Asenjo-Garcia (Columbia), and Thompson/Cheuk (Princeton) by August 2026
+### On the PI-oriented structured-light rebuild (2026-07-05)
+- **Rochester is now unambiguously #1** (9.2). It is the single densest structured-light cluster in the US: Bigelow (structured light + cold atoms, *Roadmap* author), Alonso (structured-light geometry / Majorana–Poincaré sphere — the mathematical spine of Frank's "lifting" narrative), Otte (structured singular light, trained under two other *Roadmap* chapter authors, Denz & Forbes), plus Boyd (OAM entanglement) and Vamivakas. Run PI outreach here first.
+- **Roadmap chapter → US PI map** (the seed for this list): Ch.12 structured light + cold atoms → **Bigelow (Rochester)**; Ch.5 EM angular momentum → Mansuripur (Arizona, senior/theory — see Wyant MS); Ch.18 quantum comms → **Gauthier (OSU)** / **Ramachandran (BU)**; Ch.19 classical comms → **Willner (USC)**; Ch.21 structuring light in time → **Milchberg (UMD)**, **Murnane/Kapteyn (JILA)**, **Alù (CUNY)** (time-metamaterials); Ch.22 tailoring light at the source → **Feng (Penn)** on-chip. Many *Roadmap* founding authors (Berry/Dennis UK, Andrews UK, Denz Germany, Banzer Austria, Karimi Ottawa, Marrucci Italy, Romero/White Australia, Fickler Finland, Forbes South Africa) are **outside the US and excluded** per the US-only decision — they remain the best targets *if* Frank later opens to international PhDs.
+- **⚠️ Andrew Weiner (Purdue, *Roadmap* Ch.21) died in 2023** — Purdue is retained only as an MS backup (different PI, Alaeian), not a structured-light-in-time PhD target.
+- **List is below 6/6/6 (4/5/3 = 12).** This is deliberate, not lazy padding: genuine *US-only, structured-light, taking-students, experimental-friendly* PIs are a smaller set than the old quantum-networking universe. To reach ~18 PhD apps, Frank should decide among: (a) re-add strong quantum-networking programs from the old list as a secondary track; (b) open to top international structured-light PIs (Karimi/Ottawa, Forbes, Fickler, Dennis, Banzer, Romero); (c) add applied/lower-tier US optics programs (e.g., Arizona Wyant PhD, UCF/CREOL — **but Florida is hard-excluded by SB 846**, so CREOL is off-table). Flag for a follow-up decision.
+- **Technique-gap flags:** several strong-fit PIs pull Frank off his free-space SLM table into a new modality — nanofab/metasurfaces (Capasso, Feng, Alù), fiber (Ramachandran), ultrafast/HHG (Milchberg, Murnane/Kapteyn). Rochester (Bigelow/Alonso/Otte), Duke (Litchinitser), OSU (Gauthier), RIT (Swartzlander), and RPI (N'Gom) are the closest to his current hands-on skill set.
+- **Best combined structured-light + networking-track fits** (his career-overlap goal): **Gauthier (OSU)**, **Ramachandran (BU)**, **Willner (USC)** — prioritize these for the industry/quantum-networking path.
+
+### Carried-over constraints (still active)
+- **Florida hard exclude:** UF, FSU, UCF/CREOL and other FL state-funded institutions excluded per SB 846 (Chinese national) — this is why CREOL, otherwise a structured-light powerhouse, is absent.
+- **NIST-appointment researchers off-table** for Frank (Chinese national): at UMD, target UMD-funded JQI Fellows / Milchberg, not NIST-appointed staff.
+- **Outreach season:** Jul–early Oct 2026 for PI cold emails; prioritize **Bigelow, Alonso, Otte (Rochester)**, then **Ramachandran (BU)**, **Gauthier (OSU)**, **Litchinitser (Duke)**, **Milchberg (UMD)** by Aug 2026.
+- **GRE:** Rochester/most ECE programs do not require it; USC ECE and JILA/Boulder may — verify per program. Frank still needs General (+ possibly Physics) GRE in Summer/Fall 2026.
+- **MS section unchanged** from the 2026-05-26 pass per Frank's instruction; MS funding reality and CSC-scholarship notes still apply (see prior scorecards).
