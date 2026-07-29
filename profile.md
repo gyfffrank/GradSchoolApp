@@ -2,9 +2,17 @@
 <!-- last updated: 2026-05-26 by profile-builder -->
 
 ## Target subfields
-- **Primary:** Quantum optics, AMO physics, optical networking
-- **Open to:** Quantum information, quantum photonics, quantum communication, nonlinear dynamics
-- **Avoid:** Astrophysics and astronomy-focused programs
+<!-- last updated: 2026-07-27 by sop-coach (research-interest sharpening from Materials.docx) -->
+
+- **Primary:** **High-dimensional structured quantum optics** — engineering the spatial, polarization, and orbital-angular-momentum (OAM) degrees of freedom of light together with quantum-state control (single photons and photon pairs). Central interest: geometric phase and topological structure in structured light, and how the large photonic degree-of-freedom space can encode and transport information.
+- **Why this cluster (Frank's own framing):** photons carry far more independently encodable degrees of freedom than an electronic circuit, so structured quantum light is a direct attack on the information-capacity bottleneck in optical communication and quantum information processing. The SLM wavefront-shaping already done on classical beams transfers directly to shaping the transverse wavefunction of single photons / photon pairs; the PhD adds the quantum toolchain not yet owned (SPDC sources, heralded single photons, coincidence counting, single-photon detectors, quantum-state tomography).
+- **Ranked adjacent clusters (from the PI taxonomy in Materials.docx):**
+  1. **Classical structured light & singular / topological optics** (propagation structure, vortices, caustics, critical points) — the fundamental substrate; heavy overlap with the primary cluster.
+  2. **Atom–photon quantum interfaces** — the most fundamental cluster; held as the **secondary choice.**
+  3. **Ultrafast & nonlinear structured light** (temporal DoF, HHG, strong-field) — adjacent, but requires a technique pivot off free-space SLM.
+  4. **Integrated / nanoscale quantum-photonic platforms** (chips, metasurfaces, nanocavities) — promising as a future compute platform but **constrained** (tied to silicon-IC / EUV fabrication and associated export sensitivities).
+- **Career-overlap track:** optical / quantum networking — the applied end of high-dimensional photonic encoding.
+- **Avoid:** astrophysics and astronomy-focused programs.
 
 ## Career goals
 Dual-track: academic faculty in experimental quantum optics / AMO physics, or industry role in quantum networking and optical photonics. Post-PhD path is OPT → H-1B; clearance-required positions (most quantum computing hardware roles) are off-table due to citizenship constraints. Whichever track offers the best fit at graduation.
@@ -40,7 +48,7 @@ Chinese citizen. F-1 student visa at Colgate University. Planning OPT (3-year ST
 ### Gravitational Lensing Optical Analog | Prof. Galvez | Apr 2025 – Present
 - **Summary:** Designed and carried out an optical simulation of gravitational lensing using laser beams modulated by a spatial light modulator (SLM) to emulate spacetime curvature. Implemented phase profiles for single and binary Schwarzschild lenses; reproduced interference and fringe patterns analogous to Einstein rings. Quantitatively compared theoretical predictions with measured intensity profiles demonstrating agreement in fringe structure relevant to binary systems and black hole mergers.
 - **Methods and skills:** SLM, laser optics, phase profile design, intensity profile measurement and comparison
-- **Outcomes:** Presented at OPICA/FIO conference, Denver, CO (2025). Currently being prepared for publication.
+- **Outcomes:** Presented at OPICA/FIO, Denver, CO (2025). Manuscript **under review** with Gu as lead experimental / co-first author: Moreso Serra, Bulashenko, Gu, et al., "Laboratory observation of lensing diffraction in a binary-lens system for gravitational-wave astrophysics" (2026). Repo: `C:\Users\user\Documents\GitHub\OpticsLab26-27` (MATLAB package; his contributions include the `stationaryLens` caustic/critical-point analysis, `phaseMap` optical-vortex / net-OAM detection, dual-SLM library re-architecture, and ThorLabs automation).
 
 ### Optical Analog of Quantum Pendulum Dynamics | Prof. Galvez | Apr 2025 – Present
 - **Summary:** Designed and experimentally realized a structured optical beam exploiting the Helmholtz–Schrödinger equation equivalence. Generated a Fourier-plane image encoding a superposition of 11 pendular eigenstates, with ring radii proportional to energy and angular modulation proportional to quantum probability density, including bound and rotor states.
@@ -78,7 +86,9 @@ Chinese citizen. F-1 student visa at Colgate University. Planning OPT (3-year ST
 - **Mathematical / analytical:** Mathematical modeling (HiMCM finalist, MAA/COMAP), Koopman operator theory, EDMD, Lyapunov spectrum, fractal dimension; self-studying: advanced QM (Sakurai), functional analysis (Reed — recommended by Prof. Crotty)
 
 ## Publications and presentations
-- **Conference presentation:** Gravitational lensing optical analog — OPICA/FIO, Denver, CO, 2025 (with Prof. Galvez)
+<!-- last updated: 2026-07-27 by sop-coach (added binary-lens manuscript; corrected GL authorship) -->
+- **Manuscript under review — lead experimental / co-first author:** A. Moreso Serra, O. Bulashenko, **Y. Gu**, T. Nguyen, K. Kendja, V. Rodríguez-Fajardo, E. J. Galvez, "Laboratory observation of lensing diffraction in a binary-lens system for gravitational-wave astrophysics" (dated 8 June 2026). Gu is the first-listed Colgate (experimental) author; Bulashenko (U. Barcelona) and Galvez (Colgate) are corresponding authors. Reports the first laboratory observation of binary-lens diffraction — caustics modulated by coherent wave interference, quantitative theory–experiment agreement, and a GW-chirp optical analogue. Venue: TBD/confirm. Under review as of July 2026.
+- **Conference presentation:** Gravitational-lensing optical analog — OPICA/FIO, Denver, CO, 2025 (with Prof. Galvez)
 - **Under review:** Optical analog of quantum pendulum dynamics — submitted to Physics Today (Backscatter) (with Prof. Galvez)
 
 ## Recommenders
@@ -193,6 +203,16 @@ The open problem I actually think about comes from Bill Luo's work in Galvez's l
 
 What pulls me toward this problem is a move I've now made three times. With the Koopman operator on the Chua's circuit, I lifted a chaotic system into a higher-dimensional function space and its hidden linear spectral structure became analyzable. In Fourier optics, I moved from direct space to the Fourier plane and a concealed eigenstate superposition became visible and physically decodable. The Poincaré-sphere problem has the same shape: enlarge the state space, and structure that looked arbitrary at the lower level becomes determined. I don't experience these as three separate skills — it's one recurring intellectual reflex, and recognizing it has clarified the kind of physicist I am: I'm drawn to problems where apparent complexity or arbitrariness resolves once you find the right enlarged space to view it in.
 
+#### Session: 2026-07-27 (sop-coach, cluster: open questions — REWORK, supersedes 2026-06-25 above)
+
+My open question has moved. The geodesic-selection problem I described in June — which geodesic an entangled state follows on the Poincaré sphere — I now see as one *instance* of a larger question rather than the headline. What reframed it was reading Gutiérrez-Cuevas, Dennis, and Alonso's 2024 work on the ray and caustic structure of Ince–Gauss beams. They show that the apparent transformation of a beam from LG-like to HG-like is not really a change at all: it is a single object seen from different cuts of a Poincaré-sphere picture. That collapsed something for me — differences I had been treating as distinct phenomena were one topological structure viewed from different angles.
+
+This is the move I keep making — Koopman, Fourier optics, the polarization sphere — but I can now state it more precisely: I am drawn to problems where you elevate the viewpoint until apparent change or complexity dissolves into one simple, elegant topological structure. Elegance, for me, is not decoration; it is the simplicity that appears once you find the right elevated vantage.
+
+The question I actually want to work on is *constructive*. Not only "how do these topological structures emerge," but "what are the rules for building them." I think of it like assembling something from bricks: each degree of freedom you add — polarization, then orbital angular momentum, then radial mode — is another brick that enlarges the state space, and I want the grammar for how those bricks snap together into stable high-dimensional structures. Right now I am on the skeleton of that grammar: working through the group theory (O(n), U(n), SO(n), SU(n), the point groups; the distinction between Lie and Abelian groups) and how it connects to optical polarization and vectorial fields, before I can honestly say anything about construction. A sub-question I am genuinely curious about and cannot yet answer: what makes a topological structure *stable* — what property protects it. I suspect the answer is topological, but I have not earned that claim yet.
+
+Why it matters — the stakes, not the motive: the stability of these structures is exactly what would let information ride on far more degrees of freedom than classical channels use, a direct line on the data-transmission capacity ceiling in modern information technology. But I want to be honest about where I stand. This is foundational for me right now — I am building the mathematics, I do not have an experimental observable or a falsifiable test yet, and I would rather state the question at the level I actually occupy than present it as a finished research program. The skyrmion and quantum-structured-light literature is where I am reading next, because skyrmions are a concrete instance of the stable, buildable topological texture I want to learn to construct.
+
 ### Trajectory logic
 
 #### Session: 2026-06-01 (sop-coach, cluster: trajectory logic)
@@ -215,7 +235,12 @@ My scientific direction was also shaped by the lab seniors above me. One went to
 [To be developed with sop-coach]
 
 ### Intellectual taste
-[To be developed with sop-coach]
+
+#### Session: 2026-07-27 (sop-coach, cluster: intellectual taste)
+
+What I find elegant is unification through elevation. My clearest example is Gutiérrez-Cuevas, Dennis, and Alonso's 2024 work on Ince–Gauss beams: two beam families that look like different objects turn out to be one structure seen from different cuts of a sphere. I would have loved that result even with no application — the pleasure is in the collapse of apparent difference into a single object, not in what it is good for. This is a form of scientific realism for me: the structure is already there in nature, and the right geometry or group is the lens that brings an existing pattern into focus, not a formalism imposed on top of it. It is why I read the theory before I touch the setup, and why I keep reaching for higher-dimensional or operator-theoretic viewpoints — the elevated vantage is where the simplicity lives.
+
+What I find ugly is mechanism-concealment — and it is not the same as difficulty. I dislike machine-learning approaches to physics: they can produce the right output while discarding the one thing I care about, the underlying mechanism. A method that predicts without exposing an object is a missed chance, not a result. What makes this precise rather than a slogan: I am currently working through the general-relativistic Shapiro-delay theory behind my own lensing project — a Fresnel–Kirchhoff diffraction integral with the time-delay function in the exponent — and it is genuinely hard for me to decode, harder than any ML method, yet I do not find it ugly in the least. Difficulty is an acceptable toll; opacity by design is the sin. My unfashionable-but-deep taste is the wave-optical account of light itself: in the lensing project the caustics are reproduced from just the neighbourhoods of the critical points of the time-delay function, and that picture tells me far more about how the optics works than reducing everything to Snell's law and rays. Most people walk past classical Fresnel/diffractive optics on the way to quantum hardware; I think the structure that appears at the caustics — exactly where the ray picture breaks down — is where the real physics lives.
 
 ### Cross-pollination from history-historiography
 [To be developed with sop-coach]
